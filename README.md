@@ -4,190 +4,115 @@
 
 # Aim: To test and compare how different pattern models respond to various prompts (broad or unstructured) versus basic prompts (clearer and more refined) across multiple scenarios.  Analyze the quality, accuracy, and depth of the generated responses 
 
-### AI Tools Required: ChatGPT
+NAME: DEEPIKA S
+REGISTER NUMBER : 212222230028
+Aim:
+To study and evaluate various prompt templating techniques for generating accurate, consistent, and comprehensive industrial maintenance reports. This experiment will demonstrate how different prompt patterns—such as Instructional, Comparison, Command, Q&A, Opinion, and Scenario—can be leveraged to automate distinct sections of a technical report, from raw data inputs to a finalized document.
 
-ALGORITHM:
+Algorithm
+Step 1: Define the Use Case & Scope
 
-Define Prompt Types:
+Goal: Automate the generation of a maintenance report for an industrial HVAC (Heating, Ventilation, and Air Conditioning) unit.
+Input Data: Technician's raw notes (e.g., component status, actions taken, meter readings).
+Output: A structured, professional maintenance report.
+Step 2: Design Prompt Templates for Each Pattern
 
-Naïve Prompt: Short, unclear, lacks context or structure.
+Create specific prompt templates for each of the six patterns.
 
-Basic Prompt: Detailed, structured, task-specific.
+Each template will be designed to generate a specific part of the maintenance report (e.g., summary, recommendations, diagnostics).
 
-Select Test Scenarios:
-Choose at least four scenarios:
+Step 3: Execute Prompts & Generate Report Sections
 
-Creative story generation
+Use the technician's raw notes as input for the prompt templates.
+Generate outputs for each section of the report.
+Step 4: Analyze & Review Outputs
 
-Factual question
+Evaluate the clarity, accuracy, and relevance of the AI-generated content.
+Compare the effectiveness of each pattern for its intended task.
+Introduction
+Manual creation of maintenance reports is often time-consuming, prone to human error, and can lead to inconsistent documentation across an organization. Automating this process with AI can significantly boost efficiency and standardization.
 
-Summary of concept
+This experiment explores how prompt templating can create a robust system for report generation. By applying different prompt patterns, we can control the AI's output to fit the precise requirements of each section of a technical report, turning messy field notes into a polished, actionable document.
 
-Advice/recommendation
+AI Tools Required
+ChatGPT (or any LLM-based AI tool): The core engine for generating reports based on prompts.
 
-Design Prompts:
-For each scenario, write:
+Text Editor (MS Word/Google Docs): For organizing the experiment, prompts, and outputs.
 
-One naïve prompt
+Optional: JSON/CSV data source for structured inputs: For advanced scenarios where raw data might be pre-organized.
 
-One basic prompt
+image
+Concept Explanation: Prompt Templating
+Prompt Templating is a technique where reusable, pre-defined prompt formats (templates) are created. These templates guide the AI to generate outputs that are consistent in structure, tone, and content, making them highly reliable.
 
-Run Experiment:
-Enter naïve prompt → record output
-Enter basic prompt → record output
+In the context of automated maintenance reporting, templating helps to:
 
-Compare Outputs:
-Evaluate each pair using:
+Standardize Report Structure: Ensures every report follows the same format, regardless of the technician or issue.
 
-Quality
+Reduce Human Errors: Minimizes omissions or inconsistencies that can occur in manual reporting.
 
-Accuracy
+Improve Readability: Makes reports easier to understand and act upon.
 
-Depth
+Save Time: Significantly speeds up the report generation process. Here's a visual representation of how templating streamlines the process:
 
-Tabulate Findings:
-Prepare a comparison table listing both prompts and outputs.
+image
+Workflow of Prompt Templating
+image
+Prompt Template Design
+Template 1: Instructional Prompt
+📌 Structure:
 
-Analyze:
-Identify which prompt type performed better and why.
+“Generate a maintenance report for [Machine/Equipment Name]. Include:
 
-Conclusion/Result:
-Summarize how prompt clarity affects ChatGPT’s performance.
+Date of service
 
-TEST SCENARIOS, PROMPTS, OUTPUTS, AND ANALYSIS
-SCENARIO 1: CREATIVE STORY
-Naïve Prompt
+Issue reported
 
-“Write a story.”
+Diagnostic steps taken
 
-Output (Naïve)
+Actions performed for repair
 
-A very short, generic story with no theme or characters defined.
+Spare parts used (with part numbers if available)
 
-Basic Prompt
+Total downtime incurred
 
-“Write a 150-word imaginative story about a young girl who discovers a hidden city under the ocean. Include emotions, conflict, and a hopeful ending.”
+Preventive recommendations”
 
-Output (Basic)
+✅ Ensures all critical sections are covered.
 
-A detailed, structured story with defined characters, emotional depth, conflict, and resolution.
+Template 2: Structured/Tabular Prompt
+📌 Structure:
 
-Analysis
+“Create a structured maintenance report in table format with the following fields:
 
-Naïve prompt: Too broad, results in short, low-depth story.
+| Date | Equipment Name | Issue Reported | Actions Taken | Spare Parts Used | Downtime | Technician Name | Recommendations |”
 
-Basic prompt: Specific instructions lead to richer storytelling, more coherence, better creativity.
+✅ Highly scannable & database-friendly.
 
-SCENARIO 2: FACTUAL QUESTION
-Naïve Prompt
+Template 3: Scenario-Based Prompt
+📌 Structure:
 
-“What is AI?”
+“Assume you are a senior maintenance engineer. Write a detailed report for [Machine Name] where the issue was [Specific Issue]. Include:
 
-Output (Naïve)
+Problem description
 
-A brief 2–3 line definition without technical breakdown.
+Diagnostic process
 
-Basic Prompt
+Repair actions taken
 
-“Explain Artificial Intelligence in 5–6 sentences, including definition, examples, real-world applications, and its importance in modern technology.”
+Replaced components
 
-Output (Basic)
+Final status of equipment
+Long-term preventive measures”
 
-Clear definition, examples like ML, NLP, robotics, applications in healthcare, finance, autonomous systems, and significance in automation.
+✅ Produces a narrative, expert-level report. image
 
-Analysis
+Test Scenarios
+Outputs
+Evaluation & Findings
+Naïve prompts consistently generate incomplete, vague, and professionally unusable reports. They lack the necessary detail for proper documentation or follow-up actions.
+Template-based prompts ensure all critical data points are included, resulting in reports that are accurate, consistent, and adhere to a professional format.
+Structured formats (like tables and lists) are highly effective for official maintenance documentation, as they present key information in a clear and easily digestible manner.
 
-Naïve prompt: Minimal explanation, lacks depth and examples.
-
-Basic prompt: Complete, structured, informative.
-
-SCENARIO 3: SUMMARY OF A CONCEPT
-Naïve Prompt
-
-“Summarize blockchain.”
-
-Output (Naïve)
-
-A short 3–4 line generic summary.
-
-Basic Prompt
-
-“Summarize the concept of blockchain in simple language within 120 words. Include definition, how it works, and one example.”
-
-Output (Basic)
-
-Easy-to-understand explanation with key elements like distributed ledger, blocks, hashing, transparency, and example (e.g., Bitcoin).
-
-Analysis
-
-Naïve prompt: Lacks coverage of core mechanisms.
-
-Basic prompt: More structured, helps model include working principles and examples.
-
-SCENARIO 4: ADVICE OR RECOMMENDATION
-Naïve Prompt
-
-“Give me advice.”
-
-Output (Naïve)
-
-Generic motivational advice with no context.
-
-Basic Prompt
-
-“Suggest 5 practical study tips for an engineering student preparing for semester exams. Keep it realistic and actionable.”
-
-Output (Basic)
-
-Focused tips like making timetables, using active recall, practicing past papers, time management, and breaks.
-
-Analysis
-
-Naïve prompt: Irrelevant and broad.
-
-Basic prompt: Personalized, practical, scenario-based advice.
-
-TABULAR COMPARISON OF PROMPTS AND OUTPUTS
-Scenario	Naïve Prompt	Naïve Output Quality	Basic Prompt	Basic Output Quality
-Creative Story	“Write a story.”	Short, generic	Detailed 150-word underwater story	High depth, structured
-Factual Question	“What is AI?”	Simple definition	Detailed 6-sentence explanation	Clear, complete
-Summary	“Summarize blockchain.”	Brief, lacks detail	Structured 120-word summary	Accurate, understandable
-Advice	“Give me advice.”	Vague and general	Specific student-oriented study tips	Actionable, useful
-OVERALL ANALYSIS
-Does ChatGPT perform better with basic prompts?
-
-✔ Yes.
-Basic prompts consistently produced:
-
-Higher clarity
-
-More detailed content
-
-Better structured responses
-
-Higher accuracy
-
-More relevance
-
-Did naïve prompts ever match basic prompts?
-
-✘ No, except in very simple tasks.
-Naïve prompts gave:
-
-Generic responses
-
-Missing structure
-
-Lower creativity and accuracy
-
-Lack of specificity
-
-Key Insight
-
-The model performs best when instructions are clear, structured, and contextual.
-
-
-# OUTPUT
-The experiment successfully demonstrated that basic, well-structured prompts produce significantly better quality, accuracy, and depth in ChatGPT’s responses compared to naïve prompts. Thus, prompt clarity plays a crucial role in optimizing AI output effectiveness.
-
-# RESULT: The prompt for the above said problem executed successfully
+Result
+The study of prompt templating techniques for automated maintenance report generation was successfully executed. It is clearly observed that templated prompts significantly improve the quality, clarity, and standardization of generated reports compared to naïve prompts. The use of specific templates (Instructional, Tabular, and Scenario-based) allows for precise control over the AI's output, ensuring that the final document is fit for its intended technical purpose. This methodology proves to be a valuable tool for streamlining documentation, reducing manual effort, and enhancing operational efficiency.
