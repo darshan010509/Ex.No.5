@@ -4,8 +4,9 @@
 
 # Aim: To test and compare how different pattern models respond to various prompts (broad or unstructured) versus basic prompts (clearer and more refined) across multiple scenarios.  Analyze the quality, accuracy, and depth of the generated responses 
 
-NAME: DEEPIKA S
-REGISTER NUMBER : 212222230028
+NAME: DARSHAN B
+REGISTER NUMBER : 212222080013
+
 Aim:
 To study and evaluate various prompt templating techniques for generating accurate, consistent, and comprehensive industrial maintenance reports. This experiment will demonstrate how different prompt patterns—such as Instructional, Comparison, Command, Q&A, Opinion, and Scenario—can be leveraged to automate distinct sections of a technical report, from raw data inputs to a finalized document.
 
