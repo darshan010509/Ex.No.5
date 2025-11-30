@@ -1,9 +1,12 @@
-EXP 5: COMPARATIVE ANALYSIS OF DIFFERENT TYPES OF PROMPTING PATTERNS
-AIM
+# EXP 5: COMPARATIVE ANALYSIS OF DIFFERENT TYPES OF PROMPTING PATTERNS
+# DATE: 16.9.2025
+# REGISTRATION NO: 212222080013
+
+# AIM
 
 To test and compare how ChatGPT responds to Naïve (broad, unstructured) prompts versus Basic (clear, refined, structured) prompts across multiple scenarios. The experiment aims to analyze the quality, accuracy, and depth of responses and determine how prompt clarity influences output performance.
 
-ALGORITHM
+# ALGORITHM
 
 Define Prompt Types:
 
@@ -51,8 +54,8 @@ Identify which prompt type performed better and why.
 Conclusion/Result:
 Summarize how prompt clarity affects ChatGPT’s performance.
 
-TEST SCENARIOS, PROMPTS, OUTPUTS, AND ANALYSIS
-SCENARIO 1: CREATIVE STORY
+# TEST SCENARIOS, PROMPTS, OUTPUTS, AND ANALYSIS
+# SCENARIO 1: CREATIVE STORY
 Naïve Prompt
 
 “Write a story.”
@@ -75,7 +78,7 @@ Naïve prompt: Too broad, results in short, low-depth story.
 
 Basic prompt: Specific instructions lead to richer storytelling, more coherence, better creativity.
 
-SCENARIO 2: FACTUAL QUESTION
+# SCENARIO 2: FACTUAL QUESTION
 Naïve Prompt
 
 “What is AI?”
@@ -98,7 +101,7 @@ Naïve prompt: Minimal explanation, lacks depth and examples.
 
 Basic prompt: Complete, structured, informative.
 
-SCENARIO 3: SUMMARY OF A CONCEPT
+# SCENARIO 3: SUMMARY OF A CONCEPT
 Naïve Prompt
 
 “Summarize blockchain.”
@@ -121,7 +124,7 @@ Naïve prompt: Lacks coverage of core mechanisms.
 
 Basic prompt: More structured, helps model include working principles and examples.
 
-SCENARIO 4: ADVICE OR RECOMMENDATION
+# SCENARIO 4: ADVICE OR RECOMMENDATION
 Naïve Prompt
 
 “Give me advice.”
@@ -144,13 +147,7 @@ Naïve prompt: Irrelevant and broad.
 
 Basic prompt: Personalized, practical, scenario-based advice.
 
-TABULAR COMPARISON OF PROMPTS AND OUTPUTS
-Scenario	Naïve Prompt	Naïve Output Quality	Basic Prompt	Basic Output Quality
-Creative Story	“Write a story.”	Short, generic	Detailed 150-word underwater story	High depth, structured
-Factual Question	“What is AI?”	Simple definition	Detailed 6-sentence explanation	Clear, complete
-Summary	“Summarize blockchain.”	Brief, lacks detail	Structured 120-word summary	Accurate, understandable
-Advice	“Give me advice.”	Vague and general	Specific student-oriented study tips	Actionable, useful
-OVERALL ANALYSIS
+# OVERALL ANALYSIS
 Does ChatGPT perform better with basic prompts?
 
 ✔ Yes.
@@ -183,6 +180,6 @@ Key Insight
 
 The model performs best when instructions are clear, structured, and contextual.
 
-RESULT
+# RESULT
 
 The experiment successfully demonstrated that basic, well-structured prompts produce significantly better quality, accuracy, and depth in ChatGPT’s responses compared to naïve prompts. Thus, prompt clarity plays a crucial role in optimizing AI output effectiveness.
